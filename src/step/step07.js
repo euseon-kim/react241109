@@ -15,9 +15,9 @@ const Step07 = () => {
         <ul>{friendList}</ul>
         {/* 2. map 사용법 */}
         <ul>
-            {students.map((v, i)=>{
+            {students.map((v, i)=>(
                 <li key={i}>{v}</li>
-            })}
+            ))}
         </ul>
     </>
   )

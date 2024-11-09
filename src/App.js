@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Step01 from './step/step01';
 import Step02 from './step/step02';
+import Step03 from './step/step03';
+import Step04 from './step/step04';
+import Step05 from './step/step05';
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
       <Comp />
       <Comp />
       <Step01></Step01> */}
-      <Step02/>
+      {/* <Step02/> */}
+      {/* <Step03 /> */}
+      {/* <Step04 title='게시판 제목' content='게시판내용' name='작성자' red='red' /> */}
+      <Step05/>
     </>
     
   );

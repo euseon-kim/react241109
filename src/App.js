@@ -13,7 +13,7 @@ function App() {
       <Comp />
       <Comp />
       <Step01></Step01> */}
-      <Step02  />
+      <Step02/>
     </>
     
   );
